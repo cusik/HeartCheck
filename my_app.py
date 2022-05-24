@@ -1,5 +1,3 @@
-# напиши здесь код основного приложения и первого экрана
-
 from PyQt5.QtCore import Qt
 from PyQt5.QtWidgets import (
        QApplication, QWidget,
@@ -26,7 +24,7 @@ class MainWin(QWidget):
  
        # старт:
        self.show()
-#
+              
    def initUI(self):
        ''' создаёт графические элементы '''
        self.btn_next = QPushButton(txt_next, self)
